@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5050",
+  baseURL: "https://studentnestapi.onrender.com/",
   timeout: "20000",
   withCredentials: false,
 });
